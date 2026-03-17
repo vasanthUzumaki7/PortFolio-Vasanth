@@ -253,11 +253,6 @@ a:focus {
 
 /* Info */
 
-.project-section .project-info h3 {
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: white;
-}
 
 .project-section .project-info p {
   font-size: 14px;
@@ -304,6 +299,39 @@ a:focus {
   box-shadow: 0 20px 60px rgba(99, 102, 241, 0.4);
 }
 
+.project-section .project-category {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #c8081d;
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.project-section .project-features {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.project-section .project-features li {
+    font-size: 13px;
+}
+
+.project-section .project-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-section .project-info h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
 /* End  */
 
 .back-to-top {
